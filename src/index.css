@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-orange-pattern {
+  background-image: 
+    linear-gradient(rgba(189, 31, 23, 0.5), rgba(189, 31, 23, 0.3)), 
+    linear-gradient(rgba(165, 29, 19, 0.5), rgba(165, 29, 19, 0.3)),
+    linear-gradient(rgba(142, 27, 15, 0.5), rgba(142, 27, 15, 0.5)),
+    url('assets/banner/banner.png');
+  background-size: 100% 100%, 100% 100%, 100% 100%, 50px 50px; 
+  background-repeat:repeat; 
+  background-blend-mode: multiply;
+  opacity: 0.9; 
+}
+
