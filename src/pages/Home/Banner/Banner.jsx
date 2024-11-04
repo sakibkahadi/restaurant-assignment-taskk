@@ -5,8 +5,8 @@ import CustomButton from "../../../components/CustomButton";
 
 const Banner = ({ children }) => {
   return (
-    <div className="w-full">
-      <div className="h-20 mb-20">{children}</div>
+    <div className="w-full -mt-24 mb-20 ">
+      <div className="h-20 mb-20  ">{children}</div>
 
       {/* Banner */}
       <div className="mt-10 px-5 grid grid-cols-1 gap-5 md:grid-cols-2  relative">
