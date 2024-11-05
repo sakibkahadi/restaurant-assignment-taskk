@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "image": "../src/assets/foods/burger.png", 
+      "title": " VEGETABLES BURGER",
+      "description": "Barbecue Italian cuisine pizza"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/foods/pizza 1.png", 
+      "title": " SPACIAL PIZZA",
+      "description": "Barbecue Italian cuisine pizza"
+    },
+    {
+      "id": 3,
+      "image": "../src/assets/foods/fries.png", 
+      "title": " SPACIAL FRENCH FRIES",
+      "description": "Barbecue Italian cuisine "
+    },
+    {
+      "id": 4,
+      "image": "../src/assets/foods/chicken.png", 
+      "title": "    CUISINE CHICKEN",
+      "description": "Japanese Cuisine Chicken"
+    },
+    {
+      "id": 5,
+      "image": "../src/assets/foods/burger.png", 
+      "title": " VEGETABLES BURGER",
+      "description": "Barbecue Italian cuisine pizza"
+    },
+    {
+      "id": 6,
+      "image": "../src/assets/foods/pizza 1.png", 
+      "title": " SPACIAL PIZZA",
+      "description": "Barbecue Italian cuisine pizza"
+    },
+    {
+      "id": 7,
+      "image": "../src/assets/foods/fries.png", 
+      "title": " SPACIAL FRENCH FRIES",
+      "description": "Barbecue Italian cuisine "
+    },
+    {
+      "id": 8,
+      "image": "../src/assets/foods/chicken.png", 
+      "title": "    CUISINE CHICKEN",
+      "description": "Japanese Cuisine Chicken"
+    }
+  ]
+  
