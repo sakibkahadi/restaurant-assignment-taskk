@@ -8,6 +8,9 @@ import Carousel from "../pages/Home/Carousel/Carousel";
 import foods from "../assets/foods/top-view.png";
 import BookTable from "../pages/Home/BookTable/BookTable";
 import bookTable from "../assets/booking/booking-bg.jpeg";
+import leftImage from "../assets/review/left.png";
+import rightImage from "../assets/review/right.png";
+import Testimonials from "../pages/Home/Testimonials/Testimonials";
 const Main = () => {
   const [food, setFood] = useState([]);
   useEffect(() => {
@@ -30,15 +33,31 @@ const Main = () => {
         className="hidden md:hidden xl:block absolute h-52 left-0 top-[1460px]"
         alt="food"
       />
-      {/* navbar */}
-      <Navbar /> {/* banner-section */}
+      {/* left-side salad image  */}
+      <img
+        src={leftImage}
+        className="hidden md:hidden xl:block absolute h-52 left-0 top-[2630px]"
+        alt="food"
+      />
+      {/* right-side salad image */}
+      <img
+        src={rightImage}
+        className="hidden md:hidden xl:block absolute h-72 right-0 top-[2740px]"
+        alt="food"
+      />
+
+      {/* navbar  section*/}
+      <div className="max-w-5xl mx-auto  ">
+        <Navbar />
+      </div>
+      {/* banner-section */}
       <div className="w-full bg-orange-pattern">
         <div className="max-w-5xl mx-auto">
           <Banner />
         </div>
       </div>
       {/* about-section */}
-      <div className="px-5 max-w-5xl mb-10 mx-auto relative">
+      <div className="px-4 max-w-5xl mb-10 mx-auto relative">
         <About />
       </div>
       {/* popular food item section */}
@@ -49,14 +68,21 @@ const Main = () => {
       </div>
       {/* book table section */}
       <div
-        className="px-5 max-w-7xl mb-10 mx-auto hero "
+        className="px-5 max-w-7xl mb-10 mx-auto hero bg-cover  lg:bg-[length:112%] bg-top "
         style={{
           backgroundImage: `url(${bookTable})`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
+
+          height: "100%",
         }}
       >
         <BookTable />
+      </div>
+
+      <div className=" max-w-7xl  mx-auto py-10 ">
+        <div className="px-5  max-w-5xl mx-auto ">
+          <Testimonials />
+        </div>
       </div>
     </div>
   );

@@ -5,10 +5,10 @@ import Form from "./Form";
 
 const BookTable = () => {
   return (
-    <div className="  max-w-5xl mx-auto  w-full">
+    <div className="  max-w-5xl mx-auto px-5 w-full">
       <div className="  "></div>
-      <div className="! h-[750px] text-neutral-content text-center">
-        <div className=" md:w-2/3 lg:w-1/2 h-full pt-5 lg:pt-20">
+      <div className="      text-neutral-content text-center">
+        <div className=" md:w-2/3 lg:w-1/2  pt-5 lg:pt-20">
           {/* description section */}
           <div className="text-white  text-start space-y-2">
             <CustomSubHeading subHeading="Book Now" />

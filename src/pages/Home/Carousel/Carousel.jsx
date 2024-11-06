@@ -29,7 +29,7 @@ const Carousel = ({ food }) => {
               onClick={() => carouselRef.current.next()}
               className="flex border w-fit p-2 rounded-full shadow-lg cursor-pointer"
             >
-              <MdOutlineKeyboardArrowRight size={20} />
+              <MdOutlineKeyboardArrowRight color="red" size={20} />
             </p>
           </div>
         </div>
@@ -46,9 +46,9 @@ const Carousel = ({ food }) => {
         </p>
         <p
           onClick={() => carouselRef.current.next()}
-          className="flex border w-fit p-2 rounded-full shadow-lg cursor-pointer"
+          className="flex border w-fit p-2 !text-white rounded-full shadow-lg cursor-pointer"
         >
-          <MdOutlineKeyboardArrowRight size={20} />
+          <MdOutlineKeyboardArrowRight color="red" size={20} />
         </p>
       </div>
     </div>

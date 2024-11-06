@@ -11,9 +11,9 @@ const ResponsiveCarousel = forwardRef((props, ref) => {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 2000,
     pauseOnHover: true,
-    // speed: 500,
+    speed: 1500,
     slidesToShow: 4,
     slidesToScroll: 1,
 

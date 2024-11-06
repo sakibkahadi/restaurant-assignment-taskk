@@ -122,7 +122,7 @@ const Form = () => {
         />
       </div>
 
-      <div className="form-control mt-6 w-fit">
+      <div className="form-control mt-6 md:pb-10 w-fit">
         <CustomButton buttonText="Book Now" />
       </div>
     </form>
