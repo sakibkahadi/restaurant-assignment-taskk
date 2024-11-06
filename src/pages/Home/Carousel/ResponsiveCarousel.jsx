@@ -10,15 +10,19 @@ const ResponsiveCarousel = forwardRef((props, ref) => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    pauseOnHover: true,
+    // speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
+
     responsive: [
       {
         breakpoint: 1025,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           dots: false,
         },
       },
@@ -26,7 +30,7 @@ const ResponsiveCarousel = forwardRef((props, ref) => {
         breakpoint: 770,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
 
           dots: false,
         },

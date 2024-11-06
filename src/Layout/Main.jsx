@@ -6,6 +6,8 @@ import salad from "../assets/about/salad.png";
 import About from "../pages/Home/About/About";
 import Carousel from "../pages/Home/Carousel/Carousel";
 import foods from "../assets/foods/top-view.png";
+import BookTable from "../pages/Home/BookTable/BookTable";
+import bookTable from "../assets/booking/booking-bg.jpeg";
 const Main = () => {
   const [food, setFood] = useState([]);
   useEffect(() => {
@@ -39,11 +41,22 @@ const Main = () => {
       <div className="px-5 max-w-5xl mb-10 mx-auto relative">
         <About />
       </div>
-      {/* carousel section */}
+      {/* popular food item section */}
       <div className=" max-w-7xl bg-[#fbf7f2] mx-auto py-10 ">
         <div className="px-5  max-w-5xl mx-auto ">
           <Carousel food={food} />
         </div>
+      </div>
+      {/* book table section */}
+      <div
+        className="px-5 max-w-7xl mb-10 mx-auto hero "
+        style={{
+          backgroundImage: `url(${bookTable})`,
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      >
+        <BookTable />
       </div>
     </div>
   );
