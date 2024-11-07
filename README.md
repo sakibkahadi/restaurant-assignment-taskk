@@ -4,7 +4,7 @@ This is the converted website project for **[Demo figma ]**.
 
 ## Live Preview
 
-[Live Preview Link](https://roaring-valkyrie-076cb6.netlify.app/): https://roaring-valkyrie-076cb6.netlify.app/
+Live Preview Link: https://roaring-valkyrie-076cb6.netlify.app/
 
 ## Project Overview
 
