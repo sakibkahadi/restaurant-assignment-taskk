@@ -11,6 +11,8 @@ import bookTable from "../assets/booking/booking-bg.jpeg";
 import leftImage from "../assets/review/left.png";
 import rightImage from "../assets/review/right.png";
 import Testimonials from "../pages/Home/Testimonials/Testimonials";
+import footer from "../assets/footer/restaurant-interior.jfif";
+import Footer from "../pages/Home/Footer/Footer";
 const Main = () => {
   const [food, setFood] = useState([]);
   useEffect(() => {
@@ -20,7 +22,7 @@ const Main = () => {
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
   return (
-    <div className="max-w-7xl mx-auto border relative">
+    <div className="max-w-7xl mx-auto  relative">
       {/* Salad Image -1 */}
       <img
         src={salad}
@@ -36,13 +38,13 @@ const Main = () => {
       {/* left-side salad image  */}
       <img
         src={leftImage}
-        className="hidden md:hidden xl:block absolute h-52 left-0 top-[2630px]"
+        className="hidden md:hidden xl:block absolute h-52 left-0 top-[2660px]"
         alt="food"
       />
       {/* right-side salad image */}
       <img
         src={rightImage}
-        className="hidden md:hidden xl:block absolute h-72 right-0 top-[2740px]"
+        className="hidden md:hidden xl:block absolute h-80 right-0 top-[2900px]"
         alt="food"
       />
 
@@ -57,7 +59,7 @@ const Main = () => {
         </div>
       </div>
       {/* about-section */}
-      <div className="px-4 max-w-5xl mb-10 mx-auto relative">
+      <div className="px-4 max-w-5xl  mb-20 mx-auto relative">
         <About />
       </div>
       {/* popular food item section */}
@@ -78,10 +80,27 @@ const Main = () => {
       >
         <BookTable />
       </div>
-
-      <div className=" max-w-7xl  mx-auto py-10 ">
+      {/* testimonials */}
+      <div className=" max-w-7xl  mx-auto py-10 mb-10 ">
         <div className="px-5  max-w-5xl mx-auto ">
           <Testimonials />
+        </div>
+      </div>
+      {/* footer */}
+      <div
+        className="relative max-w-7xl  mx-auto hero bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${footer})`,
+          backgroundRepeat: "no-repeat",
+          height: "100%",
+        }}
+      >
+        {/*  */}
+        <div className="absolute inset-0 bg-black/70 backdrop-blur-[1px]"></div>
+
+        {/* footer component with clear text */}
+        <div className="relative z-10  max-w-5xl px-5 mx-auto  w-full  ">
+          <Footer />
         </div>
       </div>
     </div>

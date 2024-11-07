@@ -8,7 +8,7 @@ import fastDeliveryIcon from "../../../assets/about/fast-delivery.png";
 import pickupDeliveryIcon from "../../../assets/about/pickup-deliver.png";
 const About = () => {
   return (
-    <div className="mt-10 ">
+    <div className=" -mt-10 md:mt-10  ">
       {/* div1 image and tabs sections */}
       <div className="grid gap-5 grid-cols-1 lg:grid-cols-2 ">
         {/* image part */}

@@ -5,11 +5,11 @@ import CustomButton from "../../../components/CustomButton";
 
 const Banner = ({ children }) => {
   return (
-    <div className="w-full -mt-24 mb-20 ">
+    <div className="w-full -mt-24 mb-20  ">
       <div className="h-20 mb-20  ">{children}</div>
 
       {/* Banner */}
-      <div className="mt-10 px-5 grid grid-cols-1 gap-5 md:grid-cols-2  relative">
+      <div className="  -mt-5 md:mt-10 px-5 grid grid-cols-1 gap-5 md:grid-cols-2  relative">
         {/* Content div */}
         <div className="text-white z-10 relative space-y-3">
           <h1
@@ -32,7 +32,7 @@ const Banner = ({ children }) => {
         <div className="relative mb-20">
           {/* Vector */}
           <img
-            className="h-[35px] w-[35px] absolute -top-3 right-1 lg:-right-5 lg:-top-7"
+            className="h-[35px] w-[35px] absolute -top-[14px] md:-top-3 right-1 lg:-right-5 lg:-top-7"
             src={vector}
             alt="vector"
             loading="lazy"
