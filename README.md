@@ -1,8 +1,33 @@
-# React + Vite
+# Project Title
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the converted website project for **[Demo figma ]**.
 
-Currently, two official plugins are available:
+## Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Live Preview Link](https://roaring-valkyrie-076cb6.netlify.app/)
+
+## Project Overview
+
+This project is a fully responsive website converted from **[ Figma]** using React, Tailwind CSS, and JavaScript. Additional features include:
+
+- **Modern, responsive layout**
+- **Interactive components**
+- **Optimized for performance and accessibility**
+
+## Technologies Used
+
+- **React** - for building UI components
+- **Tailwind CSS** - for responsive and utility-first styling
+- **JavaScript** - for interactive elements
+- **React Libraries**:
+  - **react-datepicker** - for date selection
+  - **react-slick** - for creating carousels/sliders
+  - **sweetalert2** - for custom alert dialogs
+- **Deployment**: [Netlify]
+
+## Installation Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sakibkahadi/restaurant-assignment-taskk.git
+   ```

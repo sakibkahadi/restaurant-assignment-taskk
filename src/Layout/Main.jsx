@@ -49,9 +49,9 @@ const Main = () => {
       />
 
       {/* navbar  section*/}
-      <div className="max-w-5xl mx-auto  ">
-        <Navbar />
-      </div>
+
+      <Navbar />
+
       {/* banner-section */}
       <div className="w-full bg-orange-pattern">
         <div className="max-w-5xl mx-auto">

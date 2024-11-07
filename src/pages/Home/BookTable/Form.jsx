@@ -4,7 +4,7 @@ import { CgShapeTriangle } from "react-icons/cg";
 import { SlCalender } from "react-icons/sl";
 import "react-datepicker/dist/react-datepicker.css";
 import CustomButton from "../../../components/CustomButton";
-
+import Swal from "sweetalert2";
 const Form = () => {
   const [people, setPeople] = useState("");
   const [selectedDate, setSelected] = useState(null);
@@ -14,7 +14,13 @@ const Form = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const message = e.target.message.value;
-    console.log(name, email, people, selectedDate, message);
+    Swal.fire({
+      position: "center",
+      icon: "success",
+      title: `Congratulation ${name} for booking`,
+      showConfirmButton: false,
+      timer: 1500,
+    });
   };
 
   const incrementPeople = () => {

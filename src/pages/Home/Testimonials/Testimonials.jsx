@@ -11,9 +11,9 @@ import TestimonialsCarousel from "./TestimonialsCarousel";
 const Testimonials = () => {
   const testimonialsRef = useRef();
   return (
-    <div>
+    <div className="-mt-10 ">
       {/* Heading */}
-      <div className="mb-10 pt-10 space-y-3">
+      <div className="mb-10  pt-10 space-y-3">
         <CustomSubHeading subHeading="Crispy, Every Bite Taste" />
         <div className="flex justify-between items-center text-black ">
           <CustomHeading heading="WHAT SOME OF MY CUSTOMERS SAY" />

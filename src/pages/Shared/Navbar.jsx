@@ -27,9 +27,9 @@ function Navbar() {
 
   return (
     <nav
-      className={`w-full sticky top-0 z-50 py-4 px-5 transition-all duration-300 ${
+      className={` px-5 w-full max-w-5xl mx-auto sticky  top-0 z-50 py-4  transition-all duration-300 ${
         isScrolled
-          ? "bg-red-600 bg-opacity-80 backdrop-blur-md"
+          ? "bg-red-600  bg-opacity-80 backdrop-blur-md"
           : "bg-transparent bg-opacity-50"
       }`}
     >
